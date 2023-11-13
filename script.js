@@ -9,7 +9,8 @@ function turnOn() {
     button.innerHTML = "Off";
     flag = 1;
     console.log(flag);
-  } else {
+  } 
+  else {
     bulb.style.backgroundColor = "white";
     button.innerHTML = "On";
     flag = 0;
